@@ -1,0 +1,12 @@
+{% extends 'notary/index.html' %}
+
+{% block content %}
+
+  <form action="/notary/" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input class="buttons" type="reset" value="Clear" />
+    <input class="buttons" type="submit" value="Submit" />
+  </form>
+
+{% endblock %}

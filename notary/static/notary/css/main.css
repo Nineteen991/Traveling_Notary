@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+
+a:visited {
+  color: #00cc66;
+}
+
+h2 {
+  font-family: 'Limelight', cursive;
+  text-shadow: 2px 2px 1px #000;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+li {
+  padding: 1% 0;
+  font-family: 'Chau Philomene One', sans-serif;
+  text-shadow: 2px 2px 1px #000;
+}
+
+p {
+  margin-bottom: 5%;
+  font-family: 'Chau Philomene One', sans-serif;
+  text-shadow: 2px 2px 1px #000;
+}
+
+/***********************************************************************
+                              header
+***********************************************************************/
+
+header {
+  background: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcoastal.ca.gov%2Fpubliced%2Fphotos%2F2016%2Fmatt_pfeifer_santacruzboardwalk.jpg&f=1") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#home {
+  height: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: red;
+  font-size: 3.5em;
+  text-shadow: 4px 4px 1px #000;
+}
+
+#certifications {
+  /*display: none;*/
+  text-shadow: 1px 1px 1px red;
+}
+
+#paypal {
+  align-self: center;
+
+  -webkit-align-self: center;
+}
+
+/******************************************************
+                    navbar
+******************************************************/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  background-color: #000;
+  padding-top: 5px;
+  list-style-type: none;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #00ff99;
+}
+
+/*************************************************************************
+                              Services & Fees
+*************************************************************************/
+#services {
+
+  background: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp1841220.jpg&f=1") no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: space-between;
+}
+
+.titles_and_bullets {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: space-between;
+}
+
+#california_notary_public_logo {
+  display: flex;
+  justify-content: center;
+
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+}
+
+#california_notary_public_logo img {
+  width: 120px;
+}
+
+h6 {
+  padding-top: 10%;
+  text-shadow: 2px 2px 1px #000;
+  align-self: center;
+}
+
+.details {
+  text-align: center;
+}
+
+/******************************************************
+              Service & Fees media queries
+******************************************************/
+
+@media screen and (min-width: 690px) {
+
+
+}
+
+/**************************************************************************
+                            ID Requirements
+**************************************************************************/
+#id_requirements {
+  padding: 7.5%;
+  background: url("https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fc2.staticflickr.com%2F6%2F5284%2F5685859767_bd22be523e_b.jpg&f=1") no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: space-around;
+}
+
+.para {
+  margin: 0;
+  text-align: center;
+}
+
+/**************************************************************************
+                                  About Me
+**************************************************************************/
+#about_me {
+  padding: 7.5%;
+  background: url("https://images.duckduckgo.com/iu/?u=https%3A%2F%2Flillianmarielovesart.files.wordpress.com%2F2014%2F07%2Fcapitola-village_web.jpg&f=1") no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: space-around;
+}
+
+#hours {
+  text-align: center;
+  list-style-type: none;
+  color: #eee;
+}
+
+/**************************************************************************
+                              Payment Methods
+**************************************************************************/
+#payments {
+  padding: 7.5%;
+  background: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fshutupandtakemethere.com%2Fpics%2F062012%2FH6Cy7Pi.jpg&f=1") no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: space-around;
+}
+
+#acceptable {
+  padding: 0;
+}
+
+.logos {
+  display: flex;
+  align-self: center;
+
+  display: -webkit-flex;
+  -webkit-align-self: center;
+}
+
+.payment_logos {
+  width: 120px;
+}
+
+/**************************************************************************
+                                  Contact Me
+**************************************************************************/
+#contact_me {
+  padding: 7.5%;
+  background: url("https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperscraft.com%2Fimage%2Fbeach_night_sea_sky_88045_3840x2160.jpg&f=1") no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: space-around;
+}
+
+#contact {
+  padding-top: 5%;
+}
+
+form {
+  text-align: center;
+}
+
+form p {
+  margin-bottom: 2%;
+}
